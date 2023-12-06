@@ -1,7 +1,10 @@
 #mainDiv{
     height: 500px;
     text-align: center;
-    border: solid 1px
+    border: solid 1px;
+    margin: 20px;
+    background-color: burlywood;
+
 }
 
 #input{

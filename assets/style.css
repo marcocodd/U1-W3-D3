@@ -21,8 +21,13 @@ text-decoration: line-through;
 }
 
 #ul{
-  list-style: decimal;
+  list-style:disc;
  padding: 10px;
  margin: 10px;
  list-style-position: inside;
+}
+
+.buttonStyle{
+    margin-left: 30px;
+    margin-top: 20px;
 }

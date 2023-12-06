@@ -1,5 +1,6 @@
 const addList = function () {
   const inputList = document.getElementById("input");
+  console.log(inputList);
   console.log(inputList.value);
 
   const newLi = document.createElement("li");
@@ -17,6 +18,7 @@ const addList = function () {
   const hiddenButton = document.createElement("button");
   hiddenButton.innerText = "Delete";
   newLi.appendChild(hiddenButton);
+  hiddenButton.classList.add("buttonStyle");
   hiddenButton.addEventListener("click", function () {
     hiddenButton.parentElement.remove();
   });

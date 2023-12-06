@@ -1,0 +1,28 @@
+#mainDiv{
+    height: 500px;
+    text-align: center;
+    border: solid 1px
+}
+
+#input{
+    margin-top: 30px;
+    padding: 10px;
+    border: solid 3px;
+}
+
+.liStyle{
+    
+text-decoration: line-through;
+
+}
+
+.liStyleCursor{
+    cursor:pointer;
+}
+
+#ul{
+  list-style: decimal;
+ padding: 10px;
+ margin: 10px;
+ list-style-position: inside;
+}

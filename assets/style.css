@@ -1,12 +1,27 @@
+
+
+
+body{
+    background-color: rgb(211, 195, 175);
+}
+
+
+
+
+
 #mainDiv{
-    height: 500px;
+    height: auto;
     text-align: center;
     border: solid 1px;
-    margin: 20px;
+    margin: 30px;
     background-color: burlywood;
 
 }
-
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
 #input{
     margin-top: 30px;
     padding: 10px;

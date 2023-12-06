@@ -1,11 +1,11 @@
 const addList = function () {
   const inputList = document.getElementById("input");
-  console.log(inputList);
-  console.log(inputList.value);
+  //console.log(inputList);
+  //console.log(inputList.value);
 
   const newLi = document.createElement("li");
 
-  console.log(newLi);
+  //console.log(newLi);
 
   newLi.innerText = inputList.value;
 
@@ -16,9 +16,13 @@ const addList = function () {
   newLi.classList.add("liStyleCursor");
 
   const hiddenButton = document.createElement("button");
+
   hiddenButton.innerText = "Delete";
+
   newLi.appendChild(hiddenButton);
+
   hiddenButton.classList.add("buttonStyle");
+
   hiddenButton.addEventListener("click", function () {
     hiddenButton.parentElement.remove();
   });
